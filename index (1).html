@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cal.com — The better way to schedule your meetings</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <nav class="nav container">
+      <div class="nav__logo">
+        <span class="nav__logo-text">Cal.com</span>
+      </div>
+
+      <ul class="nav__links">
+        <li class="nav__item nav__item--dropdown">
+          <a href="#" class="nav__link">Solutions <span class="nav__arrow">&#8964;</span></a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">Enterprise</a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">Cal.ai</a>
+        </li>
+        <li class="nav__item nav__item--dropdown">
+          <a href="#" class="nav__link">Developer <span class="nav__arrow">&#8964;</span></a>
+        </li>
+        <li class="nav__item nav__item--dropdown">
+          <a href="#" class="nav__link">Resources <span class="nav__arrow">&#8964;</span></a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">Pricing</a>
+        </li>
+      </ul>
+
+      <div class="nav__actions">
+        <a href="#" class="btn btn--ghost">Sign in</a>
+        <a href="#" class="btn btn--primary">Get started &rsaquo;</a>
+      </div>
+
+      <button class="nav__hamburger" id="menuToggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+
+    
+    <div class="nav__mobile" id="navDrawer">
+      <ul class="nav__mobile-links">
+        <li><a href="#" class="nav__mobile-link">Solutions</a></li>
+        <li><a href="#" class="nav__mobile-link">Enterprise</a></li>
+        <li><a href="#" class="nav__mobile-link">Cal.ai</a></li>
+        <li><a href="#" class="nav__mobile-link">Developer</a></li>
+        <li><a href="#" class="nav__mobile-link">Resources</a></li>
+        <li><a href="#" class="nav__mobile-link">Pricing</a></li>
+        <li><a href="#" class="nav__mobile-link">Sign in</a></li>
+        <li><a href="#" class="btn btn--primary" style="display:inline-block;margin-top:8px;">Get started</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+
+    
+    <section class="announcement container">
+      <div class="announcement__badge">
+        <span class="announcement__tag">Cal.com launches v6.3</span>
+        <span class="announcement__arrow">&#8250;</span>
+      </div>
+    </section>
+
+    <section class="hero">
+      <div class="container hero__inner">
+
+       
+        <div class="hero__copy">
+          <h1 class="hero__headline">
+            The better way to schedule your meetings
+          </h1>
+          <p class="hero__sub">
+            A fully customizable scheduling software for individuals, businesses taking calls and developers building scheduling platforms where users meet users.
+          </p>
+
+          <div class="hero__cta">
+            <a href="#" class="btn btn--google">
+              <svg class="btn__icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+                <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+                <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/>
+                <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
+              </svg>
+              Sign up with Google
+            </a>
+            <a href="#" class="btn btn--outline">
+              Sign up with email &rsaquo;
+            </a>
+          </div>
+          <p class="hero__no-cc">No credit card required</p>
+
+          
+          <div class="hero__trust">
+            <div class="trust-badge">
+              <div class="trust-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <div class="trust-logo">Trustpilot</div>
+            </div>
+            <div class="trust-badge">
+              <div class="trust-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <div class="trust-logo trust-logo--ph">P</div>
+            </div>
+            <div class="trust-badge">
+              <div class="trust-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <div class="trust-logo trust-logo--g">G</div>
+            </div>
+          </div>
+        </div>
+
+       
+        <div class="hero__mockup">
+          <div class="booking-card">
+            <!-- Profile -->
+            <div class="booking-card__profile">
+              <div class="profile-avatar">ET</div>
+              <div class="profile-info">
+                <div class="profile-name">Ethan Taylor</div>
+                <div class="profile-event">Academic Counseling</div>
+                <div class="profile-desc">Virtual counseling session for university students to discuss academic progress and well-being.</div>
+              </div>
+            </div>
+
+            
+            <div class="booking-card__durations">
+              <button class="duration-btn">15m</button>
+              <button class="duration-btn">30m</button>
+              <button class="duration-btn duration-btn--active">45m</button>
+              <button class="duration-btn">1h</button>
+            </div>
+
+            
+            <div class="booking-card__meta">
+              <span class="meta-item">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                Google Meet
+              </span>
+              <span class="meta-item">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                America/California
+              </span>
+            </div>
+
+            
+            <div class="booking-card__calendar">
+              <div class="cal-header">
+                <span class="cal-month">May 2025</span>
+              </div>
+              <div class="cal-grid">
+                <div class="cal-day-label">SUN</div>
+                <div class="cal-day-label">MON</div>
+                <div class="cal-day-label">TUE</div>
+                <div class="cal-day-label">WED</div>
+                <div class="cal-day-label">THU</div>
+                <div class="cal-day-label">FRI</div>
+                <div class="cal-day-label">SAT</div>
+
+                
+                <div class="cal-day cal-day--empty"></div>
+                <div class="cal-day cal-day--empty"></div>
+                <div class="cal-day cal-day--empty"></div>
+                <div class="cal-day cal-day--empty"></div>
+                <div class="cal-day">1</div>
+                <div class="cal-day">2</div>
+                <div class="cal-day">3</div>
+
+             
+                <div class="cal-day">4</div>
+                <div class="cal-day cal-day--available">5</div>
+                <div class="cal-day cal-day--available">6</div>
+                <div class="cal-day cal-day--available">7</div>
+                <div class="cal-day cal-day--selected">8</div>
+                <div class="cal-day cal-day--available">9</div>
+                <div class="cal-day">10</div>
+
+                
+                <div class="cal-day">11</div>
+                <div class="cal-day cal-day--available">12</div>
+                <div class="cal-day cal-day--available">13</div>
+                <div class="cal-day cal-day--available">14</div>
+                <div class="cal-day cal-day--available">15</div>
+                <div class="cal-day cal-day--available">16</div>
+                <div class="cal-day">17</div>
+
+              
+                <div class="cal-day">18</div>
+                <div class="cal-day cal-day--available">19</div>
+                <div class="cal-day cal-day--available">20</div>
+                <div class="cal-day cal-day--available">21</div>
+                <div class="cal-day cal-day--available">22</div>
+                <div class="cal-day cal-day--available">23</div>
+                <div class="cal-day">24</div>
+
+               
+                <div class="cal-day">25</div>
+                <div class="cal-day cal-day--available">26</div>
+                <div class="cal-day cal-day--available">27</div>
+                <div class="cal-day cal-day--available">28</div>
+                <div class="cal-day cal-day--available">29</div>
+                <div class="cal-day cal-day--available">30</div>
+                <div class="cal-day">31</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    
+    <section class="logos">
+      <div class="container">
+        <p class="logos__label">Trusted by teams at</p>
+        <div class="logos__grid">
+          <div class="logo-item">Vercel</div>
+          <div class="logo-item">Twilio</div>
+          <div class="logo-item">Loom</div>
+          <div class="logo-item">Deel</div>
+          <div class="logo-item">Netlify</div>
+          <div class="logo-item">Zapier</div>
+        </div>
+      </div>
+    </section>
+
+   
+    <section class="features" id="features">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Features</span>
+          <h2 class="section-title">Everything you need to schedule smarter</h2>
+          <p class="section-sub">From one-on-ones to enterprise teams, Cal.com adapts to how you work.</p>
+        </div>
+
+        <div class="features__grid">
+          <article class="feature-card">
+            <div class="feature-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            </div>
+            <h3 class="feature-card__title">Smart scheduling</h3>
+            <p class="feature-card__desc">Share your availability and let guests pick a time that works. Automatically syncs with your calendar.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3 class="feature-card__title">Round-robin routing</h3>
+            <p class="feature-card__desc">Distribute meetings evenly across your team. Set rules based on skills, workload, or priority.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+            </div>
+            <h3 class="feature-card__title">150+ integrations</h3>
+            <p class="feature-card__desc">Connect with Zoom, Google Meet, Stripe, HubSpot, Salesforce and dozens of your favorite tools.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/></svg>
+            </div>
+            <h3 class="feature-card__title">Fully customizable</h3>
+            <p class="feature-card__desc">White-label your booking page. Match your brand with custom domains, colors, and layouts.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3 class="feature-card__title">Privacy first</h3>
+            <p class="feature-card__desc">Open source and self-hostable. Your data stays yours. SOC 2 compliant for enterprise teams.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-card__icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            </div>
+            <h3 class="feature-card__title">Analytics & insights</h3>
+            <p class="feature-card__desc">Track no-shows, booking trends, and team utilization. Make data-driven decisions about your time.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+   
+    <section class="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Testimonials</span>
+          <h2 class="section-title">Loved by thousands of teams</h2>
+        </div>
+
+        <div class="carousel" id="carousel">
+          <div class="carousel__track" id="slideRail">
+
+            <div class="testimonial-card">
+              <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <blockquote class="testimonial-card__quote">
+                "Cal.com completely transformed how our sales team books demos. We went from 3 back-and-forths per meeting to zero."
+              </blockquote>
+              <div class="testimonial-card__author">
+                <div class="author-avatar" style="background:#3B6D11;color:#EAF3DE;">SR</div>
+                <div>
+                  <div class="author-name">Sarah Romero</div>
+                  <div class="author-role">Head of Sales, Vercel</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <blockquote class="testimonial-card__quote">
+                "As a solo consultant, looking professional matters. Cal.com gives me a booking page that rivals enterprise software."
+              </blockquote>
+              <div class="testimonial-card__author">
+                <div class="author-avatar" style="background:#185FA5;color:#E6F1FB;">MK</div>
+                <div>
+                  <div class="author-name">Marcus Klein</div>
+                  <div class="author-role">Independent Consultant</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <blockquote class="testimonial-card__quote">
+                "The API is incredibly well designed. We embedded Cal.com into our platform in a single afternoon. Our users love it."
+              </blockquote>
+              <div class="testimonial-card__author">
+                <div class="author-avatar" style="background:#712B13;color:#FAECE7;">AP</div>
+                <div>
+                  <div class="author-name">Anika Patel</div>
+                  <div class="author-role">CTO, Loom</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <blockquote class="testimonial-card__quote">
+                "We switched from Calendly and never looked back. Open source, customizable, and the team is incredibly responsive."
+              </blockquote>
+              <div class="testimonial-card__author">
+                <div class="author-avatar" style="background:#3C3489;color:#EEEDFE;">JL</div>
+                <div>
+                  <div class="author-name">James Liu</div>
+                  <div class="author-role">Engineering Lead, Twilio</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <blockquote class="testimonial-card__quote">
+                "Round-robin routing alone saved us 10 hours a week in manual scheduling. The ROI was immediate and obvious."
+              </blockquote>
+              <div class="testimonial-card__author">
+                <div class="author-avatar" style="background:#085041;color:#E1F5EE;">FO</div>
+                <div>
+                  <div class="author-name">Fatima Osei</div>
+                  <div class="author-role">Operations Manager, Deel</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+       
+        <div class="carousel__controls">
+          <button class="carousel__btn" id="arrowBack" aria-label="Previous">&#8592;</button>
+          <div class="carousel__dots" id="pagingBubbles"></div>
+          <button class="carousel__btn" id="arrowForward" aria-label="Next">&#8594;</button>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="open-source">
+      <div class="container open-source__inner">
+        <div class="open-source__text">
+          <span class="section-tag">Open Source</span>
+          <h2 class="open-source__title">Built in the open.<br>Trusted by builders.</h2>
+          <p class="open-source__sub">Cal.com is fully open source. Self-host it on your own infrastructure, or use our cloud — you're always in control.</p>
+          <div class="open-source__stats">
+            <div class="os-stat">
+              <div class="os-stat__num">28k+</div>
+              <div class="os-stat__label">GitHub Stars</div>
+            </div>
+            <div class="os-stat">
+              <div class="os-stat__num">900+</div>
+              <div class="os-stat__label">Contributors</div>
+            </div>
+            <div class="os-stat">
+              <div class="os-stat__num">150+</div>
+              <div class="os-stat__label">Integrations</div>
+            </div>
+          </div>
+          <a href="#" class="btn btn--primary">View on GitHub &rsaquo;</a>
+        </div>
+        <div class="open-source__visual">
+          <div class="code-block">
+            <div class="code-block__bar">
+              <span class="code-dot code-dot--red"></span>
+              <span class="code-dot code-dot--yellow"></span>
+              <span class="code-dot code-dot--green"></span>
+            </div>
+            <pre class="code-block__code"><span class="code-comment"># Self-host Cal.com in minutes</span>
+<span class="code-cmd">git clone</span> https://github.com/calcom/cal.com
+<span class="code-cmd">cd</span> cal.com
+<span class="code-cmd">cp</span> .env.example .env
+<span class="code-cmd">yarn install</span>
+<span class="code-cmd">yarn dev</span>
+
+<span class="code-comment"># Or use our API</span>
+<span class="code-cmd">npm install</span> @calcom/sdk
+</pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+    <section class="final-cta">
+      <div class="container final-cta__inner">
+        <h2 class="final-cta__title">Start scheduling smarter today</h2>
+        <p class="final-cta__sub">Join 50,000+ teams who use Cal.com to save time and grow their business.</p>
+        <div class="final-cta__btns">
+          <a href="#" class="btn btn--google">
+            <svg class="btn__icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+              <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+              <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/>
+              <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
+            </svg>
+            Sign up with Google
+          </a>
+          <a href="#" class="btn btn--outline btn--outline-light">Sign up with email &rsaquo;</a>
+        </div>
+        <p class="final-cta__no-cc">No credit card required &middot; Free plan available</p>
+      </div>
+    </section>
+
+  </main>
+
+ 
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <div class="nav__logo-text" style="font-size:1.4rem;margin-bottom:10px;">Cal.com</div>
+        <p class="footer__tagline">The open-source scheduling infrastructure for everyone.</p>
+      </div>
+
+      <div class="footer__cols">
+        <div class="footer__col">
+          <h4 class="footer__col-title">Product</h4>
+          <ul class="footer__col-links">
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Enterprise</a></li>
+            <li><a href="#">Changelog</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Developer</h4>
+          <ul class="footer__col-links">
+            <li><a href="#">API Reference</a></li>
+            <li><a href="#">Documentation</a></li>
+            <li><a href="#">GitHub</a></li>
+            <li><a href="#">Self-hosting</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Company</h4>
+          <ul class="footer__col-links">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Privacy</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <span>&copy; 2025 Cal.com, Inc. All rights reserved.</span>
+        <span>Open Source &middot; MIT License</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
